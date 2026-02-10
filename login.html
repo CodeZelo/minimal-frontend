@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth System (Login)</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">Auth System</div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <button id="themeToggle" class="theme-btn">🌙 Dark</button>
+    </nav>
+
+    <div class="page-container">
+      <!-- Form -->
+      <form class="authForm" method="POST">
+        <h2>Login Form</h2>
+        <input
+          type="text"
+          name="login"
+          placeholder="Email or Username"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Your Password"
+          required
+        />
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <script src="assets/main.js"></script>
+  </body>
+</html>

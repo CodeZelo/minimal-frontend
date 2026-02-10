@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth System (Register)</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Auth System</div>
+        <div class="nav-menu">
+            <ul>
+
+                <li><a href="index.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="#">Logout</a></li>
+
+            </ul>
+        </div>
+        <button id="themeToggle" class="theme-btn">🌙 Dark</button>
+    </nav>
+
+    <div class="page-container">
+        <!-- Form -->
+        <form class="authForm" method="POST">
+            <h2>Registration Form</h2>
+
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <input type="password" name="password" placeholder="Your Password">
+            <input type="password" name="confirmation_password" placeholder="Repeat Your Password">
+            <select name="gender">
+                <option value="">Select Gender</option>
+                <option value="male" <?=($data['gender'] ?? '' )=='male' ? 'selected' : '' ?>>Male</option>
+                <option value="female" <?=($data['gender'] ?? '' )=='female' ? 'selected' : '' ?>>Female</option>
+            </select>
+            <button type="submit" name="submit">Register</button>
+        </form>
+    </div>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>

@@ -16,4 +16,6 @@ for education purpose.
 
 - [Secure PHP Auth System: Validation, CSRF Protection, and Session Management Video Tutorial](https://youtu.be/R-Hs_qfc8Zw)
 
+- [Secure PHP Auth System: Validation, CSRF Protection, and Session Management Article Tutorial](https://codezelo.com/en/categories/projects/secure-php-auth/)
+
 - [PHP Github Project](https://github.com/CodeZelo/secure-php-auth)

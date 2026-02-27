@@ -2,6 +2,8 @@
 
 for education purpose.
 
+[Demo](https://codezelo.github.io/minimal-frontend/)
+
 ## Register Page Screenshot
 
 ![Register Page Screenshot](/screenshots/register.png "Register Page Screenshot")
